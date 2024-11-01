@@ -43,13 +43,13 @@ cd yolo-detection-app
 3. Create a new conda environment from the `environment.yml` file:
 
 ```bash
-conda env create --name yolo-detection-app -f environment.yml
+conda env create --name <your-environment-name>
 ```
 
 4. Activate the conda environment:
 
 ```bash
-conda activate yolo-detection.app
+conda activate <your-environment-name>
 ```
 
 5. Install the `build` and `pip` tools:
