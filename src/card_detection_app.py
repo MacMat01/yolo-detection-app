@@ -2,12 +2,12 @@
 
 import cv2
 
-from src.manager.card_manager import CardManager
-from src.manager.detection_manager import DetectionManager
-from src.manager.player_manager import PlayerManager
-from src.manager.round_manager import RoundManager
-from src.manager.video_capture_manager import VideoCaptureManager
-from src.manager.yolo_model_manager import YOLOModelManager
+from manager.card_manager import CardManager
+from manager.detection_manager import DetectionManager
+from manager.player_manager import PlayerManager
+from manager.round_manager import RoundManager
+from manager.video_capture_manager import VideoCaptureManager
+from manager.yolo_model_manager import YOLOModelManager
 
 
 class CardDetectionApp:
