@@ -1,13 +1,24 @@
 ﻿name: yolo-detection-app
 channels:
-  - defaults
   - conda-forge
   - anaconda
   - nvidia
   - pytorch
   - pip
 dependencies:
+  - opendatasets
   - ultralytics
   - py-opencv
-  - pip
+  - pandas
+  - seaborn
+  - matplotlib
+  - ipykernel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1 # Restart may be required
+  - imgaug
+  - tqdm
+  - requests
   - pyzbar
+  - pip
