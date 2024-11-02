@@ -8,7 +8,7 @@ for data processing and model training.
 ## Project Structure
 
 The project has the following structure:
-      - `card_detection_app.py`: Main application script for card detection.
+- `card_detection_app.py`: Main application script for card detection.
 - `environment.yml`: Contains the conda environment configuration.
 - `setup.py`: Contains the setup configuration for the Python package.
 
